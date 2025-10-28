@@ -21,8 +21,8 @@ import java.util.Map;
     //after deployment of front end changing cors
     @CrossOrigin(origins = {
     "http://127.0.0.1:5500",
-    "https://employeecrud-frontend.vercel.app",
-    "https://employeecrud-frontend-q3kmzxd1x.vercel.app"
+    "employeecrudfrontend.vercel.app",
+    "employeecrudfrontend-8ya63r020.vercel.app"
 })
 
 public class AuthController {
