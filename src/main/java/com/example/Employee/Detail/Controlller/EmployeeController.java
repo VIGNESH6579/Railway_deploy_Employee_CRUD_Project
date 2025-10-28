@@ -12,7 +12,14 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/employees")
-@CrossOrigin(origins = "http://127.0.0.1:5500")
+// @CrossOrigin(origins = "http://127.0.0.1:5500")
+    // after deployment of front end changing cors link
+    @CrossOrigin(origins = {
+    "http://127.0.0.1:5500",
+    "https://employeecrud-frontend.vercel.app",
+    "https://employeecrud-frontend-q3kmzxd1x.vercel.app"
+})
+
 public class EmployeeController {
 
     private final EmployeeService employeeService;
