@@ -16,8 +16,8 @@ import java.util.List;
     // after deployment of front end changing cors link
     @CrossOrigin(origins = {
     "http://127.0.0.1:5500",
-    "https://employeecrud-frontend.vercel.app",
-    "https://employeecrud-frontend-q3kmzxd1x.vercel.app"
+    "employeecrudfrontend.vercel.app",
+    "employeecrudfrontend-8ya63r020.vercel.app"
 })
 
 public class EmployeeController {
