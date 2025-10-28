@@ -44,8 +44,8 @@ public class SecurityConfig {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowedOrigins(List.of(
                 "http://127.0.0.1:5500",
-                "https://employeecrud-frontend.vercel.app",
-                "https://employeecrud-frontend-q3kmzxd1x.vercel.app"
+                "employeecrudfrontend.vercel.app",
+                "employeecrudfrontend-8ya63r020.vercel.app"
         ));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("*"));
